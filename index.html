@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="ru" dir="ltr" style="--scroll-fixed-width:1470px; --layout-width:960px;"><head class="push_notifier_supported"><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="https://vk.com/images/icons/favicons/fav_logo.ico?6">
+
+<link rel="apple-touch-icon" href="https://vk.com/images/icons/pwa/apple/default.png?15">
+
+
+<meta http-equiv="origin-trial" content="AiymFI85w2/GSGbzrplgUbWCwiuDfQeTCHPPgkPyHNNKBwYayXHKnxa3pfWYRSqBJSDavyxBmG9yNNKv2edogw4AAABceyJvcmlnaW4iOiJodHRwczovL3ZrLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViQ29kZWNzIiwiZXhwaXJ5IjoxNjM4NDAzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0="><meta name="description" content="ВКонтакте – универсальное средство для общения и поиска друзей и одноклассников, которым ежедневно пользуются десятки миллионов человек. Мы хотим, чтобы друзья, однокурсники, одноклассники, соседи и коллеги всегда оставались в контакте."><meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
+
+<title>Добро пожаловать | ВКонтакте</title>
+
+<noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
+<script type="text/javascript" async="" src="./Добро пожаловать _ ВКонтакте_files/code.js"></script><script nomodule="">/*nomodule*/(function(){"use strict";function e(e){var t=e.needRedirect,n=new XMLHttpRequest;n.open("GET","/badbrowser_stat.php?act=nomodule"),n.send(),t&&window.location.replace("/badbrowser.php")}return e})()({"needRedirect":false});</script>
+
+<link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/common.fdf0072d4e961178f04a.css"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/base.fb1f9176f1f18f31fafa.css"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/vkui.de52b06252859ab51a79.css"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/fonts_utf.2546d253c69649b0561c.css"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/fonts_cnt.7809321e6a2c5f3e361d.css">
+
+<script type="text/javascript">
+(function() {
+var alertCont;
+function trackOldBrowserEvent(event) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/badbrowser_stat.php?act=track&event=' + event);
+  xhr.send();
+}
+function exposeGlobals() {
+  window.hideOldBrowser = function() {
+    alertCont.remove();
+    var date = new Date();
+    date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
+    var expiresDate = date.toGMTString();
+    var domain = window.locDomain;
+    document.cookie = 'remixoldbshown=1; expires=' + expiresDate + '; path=/' + (domain ? '; domain=.' + domain : '') + ';secure';
+    trackOldBrowserEvent('hideAlert_atom');
+  }
+}
+function checkOldBrowser() {
+  if(!document.body) {
+    setTimeout(checkOldBrowser, 100);
+    return;
+  }
+  try {
+    if ((false || !('noModule' in HTMLScriptElement.prototype)) && !false) {
+      exposeGlobals();
+      var alert = '<div class="OldBrowser__container OldBrowser__container--atom" style="width:960px;">  Ваш браузер устарел. Попробуйте <a href="https://vk.com/away.php?to=https%3A%2F%2F1l-go.mail.ru%2Fr%2Fadid%2F3245029_2013344%2Fpid%2F102819%2Fpof%2F1%2Ff%2F3%2F%3F_1larg_sub%3D505021%26utm_source%3Dvk%26utm_medium%3Dbanner%26utm_campaign%3DExpVKGameLine_all_all_all_standart%26utm_content%3Datom%26rfr%3D505021&badbrowser=atom&badbrowser_meta=_badbrowser_alert" target="_blank">браузер Atom</a>, чтобы работа ВКонтакте была быстрой и стабильной. <a href="https://vk.com/away.php?to=https%3A%2F%2F1l-go.mail.ru%2Fr%2Fadid%2F3245029_2013344%2Fpid%2F102819%2Fpof%2F1%2Ff%2F3%2F%3F_1larg_sub%3D505021%26utm_source%3Dvk%26utm_medium%3Dbanner%26utm_campaign%3DExpVKGameLine_all_all_all_standart%26utm_content%3Datom%26rfr%3D505021&badbrowser=atom&badbrowser_meta=_badbrowser_alert" target="_blank">Подробнее</a>  <span class="OldBrowser__close" aria-label="Закрыть" role="button" onclick="hideOldBrowser();"></span></div>';
+      alertCont = document.createElement('div');
+      alertCont.className = 'OldBrowser';
+      alertCont.id = 'old_browser_wrap';
+      alertCont.innerHTML = alert;
+      document.body.appendChild(alertCont);
+      trackOldBrowserEvent('showAlert_atom');
+    }
+  } catch(e) {}
+}
+setTimeout(checkOldBrowser, 0);
+})();
+var vk = {
+  ads_rotate_interval: 120000,
+  al: parseInt('3') || 4,
+  id: 0,
+  sex: 0,
+  intnat: '' ? true : false,
+  host: 'vk.com',
+  __domain: 'vk.com',
+  loginDomain: 'https://login.vk.com/',
+  logoutUrl: 'https://login.vk.com/?act=logout&hash=2a7e078964766f8965&_origin=https%3A%2F%2Fvk.com&lrt=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU',
+  lang: 0,
+  statsMeta: {"platform":"web2","st":false,"time":1675257364,"hash":"Ujv3GVAbL1E1PmmgJg1iZiY3p64qhzB4ByWOFkQfVEc","reloadVersion":3},
+  loaderNavSection: '',
+  rtl: parseInt('') || 0,
+  version: 3109004,
+  stDomains: 0,
+  stDomain: 'https://st1-54.vk.com',
+  navDomain: "",
+  navPostfix: "",
+  wsTransport: 'https://stats.vk-portal.net',
+  stExcludedMasks: ["loader_nav","lang","sw\/"],
+  zero: false,
+  contlen: 34570,
+  loginscheme: 'https',
+  ip_h: '2a7e078964766f8965',
+  navPrefix: '/',
+  dt: parseInt('0') || 0,
+  fs: parseInt('13') || 13,
+  ts: 1675257364,
+  tz: 10800,
+  vcost: 7,
+  time: [2023, 2, 1, 16, 16, 4],
+  sampleUser: -1, spentLastSendTS: new Date().getTime(),
+  a11y: 0,
+  statusExportHash: '',
+  audioAdsConfig: {"_":"_"},
+  longViewTestGroup: "every_view",
+  cma: 1,
+  lpConfig: {
+    enabled: 0,
+    key: '',
+    ts: 0,
+    url: '',
+    lpstat: 0,
+    sseUrl: 'https://papi.vk.com/pushsse/ruim'
+  },
+
+  pr_tpl: "<div class=\"pr %cls%\" id=\"%id%\"><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><\/div>",
+  push_hash: 'c424447674ac266312',
+
+  audioInlinePlayerTpl: "<div class=\"audio_inline_player _audio_inline_player no_select\">\n  <div class=\"audio_inline_player_right\">\n    <div class=\"audio_inline_player_volume\"><\/div>\n  <\/div>\n  <div class=\"audio_inline_player_left\">\n    <div class=\"audio_inline_player_progress\"><\/div>\n  <\/div>\n<\/div>",
+
+  pe: {"send_user_info_stats":1,"force_send_user_info":1,"vk_apps_svg_qr":1,"upload.send_upload_stat":1,"push_notifier":1,"notify_new_events_box":1,"mini_apps_web_add_to_favorites":1,"mini_apps_m_web_new_stub_page":1,"cookie_class_samesite":1,"cookie_secure_default_true":1,"stickers_bot_link":1,"story_reactions_sending_feature_web":1,"widgets_xdm_same_origin":1,"stickers_money_transfer_suggestions":1,"web2_story_box_enabled":1,"navigation_timespent":1,"market_item_recommendations_view_log":1,"market_item_others_view_log":1,"web_stats_transport_story_view":1,"registration_item_stat":1,"mvk_audio_fullscreen_banner":1,"mvk_lazy_static_reload":1,"mute_mvk_err_peaks":1,"notifications_view_new":1,"ads_market_autopromotion_bookmarks_stats":1,"print_stickers_updated":1,"mini_apps_web_call_api_form_data":1,"groups_category_gender_choose":1,"web_new_photo_editor":1,"web_new_photo_editor_crop":1,"web_photo_editor_hide_entrypoint":1,"web_stats_try_send":1,"expand_web_vitals_grade":1,"page_loading_stat":1,"profile_questions_enabled":1,"update_private_snippets_by_queue":1,"stickers_catalog_reload_after_buy":1,"web_stats_send_on_events_limit":1,"batchify_web_stats":1,"sentry_js_sanitize_frames":1,"sentry_js_server_errors_integration":1,"sentry_js_handled_errors_integration":1,"sentry_js_known_issues_mvk_integration":1,"sentry_js_api_errors_mvk_integration":1,"sentry_js_known_issues_web_integration":1,"sentry_js_web_timeouts_forwarding":1,"sentry_js_web_verbose":1,"sentry_js_inline_scripts":1,"sentry_js_reference_errors":1,"stickers_web_new_ui":1,"ads_new_reports_web_tgb":1,"ads_autopromotion_web_geo":1,"recognize_mock_turn_off":1,"photo_recognition_web":1,"aliexpress_app_links_with_partner_links":1,"ads_new_reports_web_histories":1,"ads_new_reports_mvk_histories":1,"audio_unauth_preview":1,"audio_use_web_new_version_lyrics":1,"audio_unauth_preview_box":1,"ads_easy_promote_goods_new_create_api":1,"unauthorized_media_layer_box":1,"messenger_web_themes_easter_egg":1,"mail_history_unread_counter_observer":1,"messenger_empty_pinned_support":1,"force_act_in_get_params":1,"market_suggest_search_queries":1,"mini_apps_action_menu_mvk":1,"direct_games_safari_view_controller":1,"direct_games_install_screen_safari_view_controller":1,"apps_app_share_vk_bridge_event_disable_double_test_and_link":1,"mail_longpoll_unread_counter":1,"faq_clean_up_extra_spaces":1,"loginvk_unauthorized_force_logout":1,"loginvk_api_use_anonymous_token":1,"mail_fastchat_reforged":1,"inline_attaches_icons":1,"mvk_quick_search_canceled_requests":1,"mvk_quick_search_canceled_requests_stats":1,"apps_games_catalog_my_games_cloud":1,"mail_new_conversation_stickers_hint":1,"test_folder_masks":1,"simplified_start_conversation":1,"microlandings_marketing_blocks":1,"js_errors_no_write_uncaught_errors":1,"fav_dialog_with_yourself":1,"mail_business_notify":1,"im_message_editable_sync":1,"mail_dialog_list_menu":1,"mail_new_ui_banner":1,"messages_new_empty_dialog_screen":1,"me_fc_pinned_message":1,"me_new_ads_module_detect":1,"im_clocks_fix":1,"similar_groups_after_unsubscribe":1,"market_albums_autopromotion_modal":1,"market_related_items":1,"empty_tab_history_check":1,"mvk_redirect_to_app_without_target_url":1,"mvk_vkui_search":1,"mvk_search_api_prefetch":1,"one_item_post_promotion_entrypoints":1,"redesign_web_market_catalog_carts_feature":1,"waf_ajax_request_enabled":1,"cookie_lite_js_save_stat":1,"longread_tts_web_player":1,"mvk_waf_ajax_request_enabled":1,"groups_settings_tooltip":1,"classified_item_card_similar_products":1,"nospam_new_histogram":1,"longread_tts_no_stream_error":1,"messenger_make_away_link_useful":1,"search_mvk_menu_link":1,"market_add_to_bookmarks_analytics_new":1,"article_multilists":1,"apps_skip_lazy_static_reload_mvk":1,"article_text_drag":1,"analytics_web_item_creation":1,"market_view_item_analytics_new":1,"market_import":1,"market_product_create_new_categories":1,"new_sticker_picker":1,"rlottie":1,"stickers_keywords_idb_cache":1,"stickers_keyboard_visible_reload":1,"avatar_component_refactor_web":1,"web_api_fork":1,"market_transition_to_item_analytics_new":1,"market_send_message_to_owner_analytics_new":1,"adsedit_legal_modal_enable_dealer_fields":1,"mvk_profile_redesign_old_posting":1,"get_lang_shared_web":1,"get_lang_shared_mvk":1,"get_lang_shared_diff":1,"lang_sex_shared":1,"ecomm_web_group_wizard":1,"ajax_request_parse_html_error":1,"search_enable_catalog_communities_search_v2_mvk":1,"search_enable_catalog_people_search_v2_mvk":1,"profile_redesign_onboarding":1,"search_force_update_search_friends_on_filter_change":1,"search_disable_countries_mvk":1,"vkc_app_detection_enabled":1,"mvk_lite_log_connection_listener_error":1,"marusya_web_support_proccess_commands":1,"marusia_web_music_stats":1,"profile_owner_content_tabs_settings":1,"profile_hide_country_field":1,"personal_in_vkidacc":1,"mvk_prefetch_updated_static":1,"onboarding_skip_country":1,"video_custom_tabs":1,"vkconnect_auth_security_error_popup":1,"nft_avatar_component_mvk":1,"global_init_layer_with_ge":1,"mvk_profile_cover_redesign":1,"profile_redesign_new_cover_exp":1,"mvk_skins_legacy_settings_OwnerRow":1,"friends_mvk_catalog":1,"friends_friends_mvk_catalog":1,"web_stats_send_beacon":1,"esia_verification_status":1,"mvk_games_history_back_on_exit":1,"article_tables":1,"market_web_breadcrumbs_v2":1,"vkconnect_auth_flat_button_unlock":1,"mvk_skins_legacy_base_TextInput":1},
+  ex: [],
+  acl: [],
+  countryISO: 'RU',
+  apiConfigDomains: {
+    domain: 'vk.com',
+    apiDomain: 'api.vk.com',
+    loginDomain: 'login.vk.com',
+    connectDomain: 'id.vk.com',
+  },
+
+  isCallsDevEnv: '' ? true : false,
+};;vk.rv="113215";
+
+window.locDomain = vk.host.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+var _ua = navigator.userAgent.toLowerCase();
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) document.domain = locDomain;
+var ___htest = (location.toString().match(/#(.*)/) || {})[1] || '', ___to;
+___htest = ___htest.split('#').pop();
+if (vk.al != 1 && ___htest.length && ___htest.substr(0, 1) == vk.navPrefix) {
+  if (vk.al != 3 || vk.navPrefix != '!') {
+    ___to = ___htest.replace(/^(\/|!)/, '');
+    if (___to.match(/^([^\?]*\.php|login|mobile|away)([^a-z0-9\.]|$)/)) ___to = '';
+    location.replace(location.protocol + '//' + location.host + '/' + ___to);
+  }
+}
+
+var StaticFiles = {
+  'dist/web/common_web.js' : {v: '308'},
+  'al/common.fdf0072d4e961178f04a.css':{v:''},'common.css':{v:1},'al/base.fb1f9176f1f18f31fafa.css':{v:''},'base.css':{v:1},'al/vkui.de52b06252859ab51a79.css':{v:''},'vkui.css':{v:1},'al/fonts_utf.2546d253c69649b0561c.css':{v:''},'fonts_utf.css':{v:1},'al/fonts_cnt.7809321e6a2c5f3e361d.css':{v:''},'fonts_cnt.css':{v:1}
+  ,'dist/polyfills.0ce3295c49796487a459.js':{v:'142ef02c0b4574c2cf77'},'dist/common.536ba32ccc0e7b8c59f8.js':{v:'30843047c8ff48cdfe0d918'},'dist/web/polyfills/cookie_manager.02ec41d147c4ec59b107.js':{v:'0d028a33c5fdd52838e283f2143a60c3'},'dist/web/polyfills/intersection_observer.0062cad0ff26ba906a55.js':{v:'3651dae73da1d676cd37'},'dist/web/polyfills/resize_observer.233e96db629d43de3623.js':{v:'685418a51d9509d705d3'},'dist/web/polyfills/canvas_to_blob.acec7c3c8bb7d0cdd010.js':{v:'9acf2194e57a79d7a6c7b10b49f22a61'},'dist/web/polyfills/object_functions.5848e4e8f4902d41d8d8.js':{v:'694cb341304e35a5f825391eb3d96de9'},'dist/web/polyfills/promise_functions.c8f9007eca8ad9060fd0.js':{v:'1ec5a68d5ea7e16cfccd32aac72c2d00'},'dist/web/polyfills/string_functions.b2b92b063036d86b4cb1.js':{v:'4cc51aca07e7eb96f68f7835b7cf5a11'},'dist/web/polyfills/element_functions.2d0d66903c2fe192fd1e.js':{v:'fb6d03c0c8fda520f3965ed2e867b9ae'},'dist/web/polyfills/other_functions.7ed13e49b775338d1363.js':{v:'cfa8de20d49addb171fe'},'dist/web/polyfills/array_functions.fc2f1d344c935e6c72df.js':{v:'6b44f03f0b8e3dec0bc7963871f349de'},'dist/react.6d787991b51243317269.js':{v:'cb151ae0d77e1fe8ca23'},'dist/palette.69880a756659df081b88.js':{v:'123b613a041dd8eaa71d'},'dist/vkui.9ce756e79bcf283a954f.js':{v:'f997748e68fd7be2e287'},'dist/vkcom-kit.b03d10f9d2f51b529c4c.css':{v:'f240cb6e6daefe3dd6a0'},'dist/vkcom-kit.ef6bca5bf58cecbda0a4.js':{v:''},'dist/state-management.8e97fe2a4347f83898ba.js':{v:'34aaaa20532e580b8b59'},'dist/audioplayer.abd4bc532f9383ba94f5.js':{v:'3084fc3563dddd442fc7ab9'},'dist/web/common_web.95eccc249ab38cb1e901.css':{v:'97bde66fecb4e14b7787500b9664a418'},'dist/web/common_web.3ceab4dc9b5a6cfcda04.js':{v:''},'lang0_0.js': {v: 27920956},'al/index.2758807e50c232a8e3db.css':{v:''},'index.css':{v:1},'dist/web/index.8cb5bfc00b27e6062c12.js':{v:'610648d616122d43e608c184384b0f89'},'dist/web/index.js':{v:1},'al/login.4a00290c097071a71a17.css':{v:''},'login.css':{v:1},'dist/web/language.df020b7dc6b213fb716e.js':{v:'664ec6c25758cfafe83a9e06aa9ea189'},'dist/web/language.js':{v:1},'dist/web/join.2b63061a0dc595b2a4da.js':{v:'87a0d304aee33511bf2a460d00d64141'},'dist/web/join.js':{v:1},'al/join.d495a807974c4dced8cc.css':{v:''},'join.css':{v:1},'ui_controls.js':{v:192},'ui_controls.23309cc518c1d34064dc.css':{v:''},'ui_controls.css':{v:1},'al/ui_gallery_core.37c5fe701b478e7ae53d.css':{v:''},'ui_gallery_core.css':{v:1},'dist/web/ui_components.5b8538f5c59cd936c097.js':{v:'a658648277af544a592c00847d33e20c'},'dist/web/ui_components.js':{v:1},'dist/b5c9c491384cad5bff37ba6c51978bcd.194ac122e8baf464ae93.js':{v:'c5bb6772e261d6bac56a'},'dist/web/sentry.efc55f128139039c5922.js':{v:'c1973a9584c388471b54e260ffcd6e68'},'dist/web/sentry.js':{v:1},'dist/web/performance_observers.adac7aabe79fa6aea89a.js':{v:'98c75d99f45c216473b4c0c056aee3bf'},'dist/web/performance_observers.js':{v:1},'dist/web/css_types.dbf33040e87be3719877.js':{v:'fe5f5f2d62cebb8be22a'},'dist/web/css_types.js':{v:1},'dist/web/unauthorized.5593aa57ecde3daa158f.js':{v:'1c7787f4f7a6afe0c756cf4e68d1ecbb'},'dist/web/unauthorized.js':{v:1},'dist/web/jobs_devtools_notification.855ede010bcf23de35b4.js':{v:'84423bea9307843cd614c4ce708a8f47'},'dist/web/jobs_devtools_notification.js':{v:1},'dist/web/page_layout.5e06c869b197a635f23b.js':{v:'0796a956023ffdb8f62851868baad644'},'dist/web/page_layout.js':{v:1},'dist/web/ui_common.ca189459d3ff08727111.js':{v:'d5fbd924b533678ae3d2bdebfaac0f99'},'ui_common.js':{v:1},'al/ui_common.14417d3e282bb00b6c54.css':{v:''},'ui_common.css':{v:1},'dist/web/likes.5c6e6fb4dd7d126b9994.js':{v:'f3cbe80036403d1261de75a1091b9a2a'},'dist/web/likes.js':{v:1},'dist/web/grip.61ce6ee28daa8d14fdc5.js':{v:'5f9e0ffea797cc93d99c4bddae31d0eb'},'dist/web/grip.js':{v:1}
+}
+var abp;
+</script>
+
+
+
+<script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/loader_nav20893106915_0.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/polyfills.0ce3295c49796487a459.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/common.536ba32ccc0e7b8c59f8.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/cookie_manager.02ec41d147c4ec59b107.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/intersection_observer.0062cad0ff26ba906a55.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/resize_observer.233e96db629d43de3623.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/canvas_to_blob.acec7c3c8bb7d0cdd010.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/object_functions.5848e4e8f4902d41d8d8.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/promise_functions.c8f9007eca8ad9060fd0.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/string_functions.b2b92b063036d86b4cb1.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/element_functions.2d0d66903c2fe192fd1e.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/other_functions.7ed13e49b775338d1363.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/array_functions.fc2f1d344c935e6c72df.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/react.6d787991b51243317269.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/palette.69880a756659df081b88.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/vkui.9ce756e79bcf283a954f.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/vkcom-kit.b03d10f9d2f51b529c4c.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/vkcom-kit.ef6bca5bf58cecbda0a4.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/state-management.8e97fe2a4347f83898ba.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/audioplayer.abd4bc532f9383ba94f5.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/common_web.95eccc249ab38cb1e901.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/common_web.3ceab4dc9b5a6cfcda04.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/lang0_0.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/px.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/px(1).js"></script><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.vk.com/"><link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/index.2758807e50c232a8e3db.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/index.8cb5bfc00b27e6062c12.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/login.4a00290c097071a71a17.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/language.df020b7dc6b213fb716e.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/join.2b63061a0dc595b2a4da.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/join.d495a807974c4dced8cc.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/ui_controls.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/ui_controls.23309cc518c1d34064dc.css"><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/ui_gallery_core.37c5fe701b478e7ae53d.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/ui_components.5b8538f5c59cd936c097.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/b5c9c491384cad5bff37ba6c51978bcd.194ac122e8baf464ae93.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/sentry.efc55f128139039c5922.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/performance_observers.adac7aabe79fa6aea89a.js" async="true"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/css_types.dbf33040e87be3719877.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/unauthorized.5593aa57ecde3daa158f.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/jobs_devtools_notification.855ede010bcf23de35b4.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/page_layout.5e06c869b197a635f23b.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/ui_common.ca189459d3ff08727111.js"></script><link type="text/css" rel="stylesheet" href="./Добро пожаловать _ ВКонтакте_files/ui_common.14417d3e282bb00b6c54.css"><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/likes.5c6e6fb4dd7d126b9994.js"></script><script type="text/javascript" src="./Добро пожаловать _ ВКонтакте_files/grip.61ce6ee28daa8d14fdc5.js"></script>
+
+<script src="./Добро пожаловать _ ВКонтакте_files/abc_light.28e4d6421f39ba08e380.js"></script></head>
+
+<body onresize="onBodyResize()" class="index_page anonym anonym_nav  new_header_design  page_header_width_fix vkui_z_index_override" data-useragent="yabrowser chrome" scheme="vkcom_light">
+  <div style="display: block;" id="a11y_mvk_proposal" aria-label="Мобильная версия с улучшенной поддержкой озвучивания экрана." role="link" class="visually-hidden"></div>
+  <div id="system_msg" class="fixed"></div>
+  <div id="utils"></div>
+
+  <div id="layer_bg" class="fixed" style="height: 742px;"></div><div id="layer_wrap" class="scroll_fix_wrap fixed layer_wrap" style="width: 1488px; height: 742px;"><div id="layer" style="width: 1470px;"></div></div>
+  <div id="box_layer_bg" class="fixed" style="height: 742px;"></div><div id="box_layer_wrap" class="scroll_fix_wrap fixed" style="width: 1488px; height: 742px;"><div id="box_layer" style="width: 1470px;"><div id="box_loader"><div class="pr pr_baw pr_medium" id="box_loader_pr"><div class="pr_bt"></div><div class="pr_bt"></div><div class="pr_bt"></div></div><div class="back"></div></div></div></div>
+
+  <div id="stl_left" style="width: 239px;"><div id="stl_bg"><span id="stl_text">Наверх</span></div></div><div id="stl_side" style="left: 240px; width: 10px; top: 48px; height: 694px;"></div>
+
+  <script type="text/javascript">window.domStarted && window.domStarted();</script>
+
+  <div class="scroll_fix_wrap _page_wrap" id="page_wrap"><style>
+:root {
+  --layout-width: 960px;
+}
+</style>
+<div><div class="scroll_fix" style="width: 1470px;">
+  
+  <div id="page_header_cont" class="page_header_cont">
+    <div id="page_header_wrap" class="page_header_wrap" style="width: 1470px; margin-left: 0px;">
+      <a class="top_back_link" href="https://vk.com/" id="top_back_link" onclick="if (nav.go(this, event, {back: true}) === false) { showBackLink(); return false; }" style="max-width: 1435px;"></a>
+      <header id="page_header" class="p_head p_head_l0">
+        <div class="PortalNavigation">
+    <div class="PortalNavigation__icon"></div>
+</div>
+        <ul id="top_nav" class="HeaderNav">
+  <li class="HeaderNav__item HeaderNav__item--logo">
+    <a class="TopHomeLink" href="https://vk.com/" aria-label="На главную" accesskey="1">
+      <svg width="136" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#new_logo_vk_with_text__a)"><g clip-path="url(#new_logo_vk_with_text__b)"><path fill-rule="evenodd" clip-rule="evenodd" d="M67 12.5c0 3.34-2.43 5.5-5.88 5.5-3.45 0-5.88-2.16-5.88-5.5S57.67 7 61.12 7C64.57 7 67 9.16 67 12.5Zm-9.22 0c0 2.07 1.35 3.5 3.34 3.5s3.34-1.43 3.34-3.5-1.35-3.45-3.34-3.45-3.34 1.38-3.34 3.45Zm-17.03-.21c.95-.44 1.56-1.18 1.56-2.33 0-1.73-1.58-2.96-3.87-2.96h-5.27v11h5.5c2.37 0 4.02-1.29 4.02-3.05 0-1.33-.87-2.32-1.94-2.66ZM35.6 9.01h2.83c.85 0 1.44.5 1.44 1.2s-.6 1.2-1.44 1.2h-2.83V9ZM38.67 16h-3.06V13.3h3.06c.96 0 1.59.55 1.59 1.36 0 .8-.63 1.33-1.59 1.33ZM51.84 18h3.19l-5.06-5.71L54.61 7h-2.9l-3.68 4.27h-.6V7H45v11h2.44v-4.38h.59l3.8 4.38ZM76.47 7v4.34h-4.93V7H69.1v11h2.43v-4.44h4.93V18h2.43V7h-2.43ZM86.9 18h-2.44V9.22h-3.8V7H90.7v2.22h-3.8V18Zm9.7-11c-2.14 0-4.02.89-4.57 2.8l2.24.37a2.38 2.38 0 0 1 2.2-1.25c1.33 0 2.12.9 2.22 2.33h-2.37c-3.23 0-4.84 1.42-4.84 3.45 0 2.05 1.59 3.3 3.83 3.3 1.8 0 3-.82 3.53-1.73l.5 1.73h1.8v-6.18c0-3.19-1.73-4.82-4.54-4.82Zm-.72 9.16c-1.19 0-1.95-.61-1.95-1.57 0-.84.62-1.43 2.48-1.43h2.3c0 1.8-1.14 3-2.83 3ZM113.73 18h-3.2l-3.8-4.38h-.6V18h-2.42V7h2.43v4.27h.59L110.4 7h2.9l-4.63 5.29 5.05 5.71Zm4.27 0h2.44V9.22h3.8V7H114.2v2.22h3.8V18Zm12.3-11c3.33 0 5.7 2.2 5.7 5.37 0 .3-.02.55-.04.79h-8.84c.23 1.69 1.46 2.83 3.32 2.83 1.29 0 2.3-.55 2.83-1.33l2.29.38c-.83 2.1-2.98 2.96-5.27 2.96-3.34 0-5.71-2.18-5.71-5.5s2.37-5.5 5.71-5.5Zm3.06 4.25A3.06 3.06 0 0 0 130.29 9a3 3 0 0 0-3.02 2.25h6.09Z" fill="currentColor"></path><path d="M11.5 24h1c5.44 0 8.15 0 9.83-1.68C24 20.64 24 17.92 24 12.5v-1.02c0-5.4 0-8.12-1.67-9.8C20.65 0 17.93 0 12.5 0h-1C6.06 0 3.35 0 1.67 1.68 0 3.36 0 6.08 0 11.5v1.02c0 5.4 0 8.12 1.68 9.8C3.36 24 6.08 24 11.5 24Z" fill="#07F"></path><path d="M12.77 17.29c-5.47 0-8.59-3.75-8.72-9.99h2.74c.09 4.58 2.11 6.52 3.71 6.92V7.3h2.58v3.95c1.58-.17 3.24-1.97 3.8-3.95h2.58a7.62 7.62 0 0 1-3.51 4.98 7.9 7.9 0 0 1 4.11 5.01h-2.84a4.94 4.94 0 0 0-4.14-3.57v3.57h-.31Z" fill="#fff"></path></g></g><defs><clippath id="new_logo_vk_with_text__a"><path fill="#fff" transform="translate(.001)" d="M0 0h136v24H0z"></path></clippath><clippath id="new_logo_vk_with_text__b"><path fill="#fff" transform="translate(0 -12)" d="M0 0h136v48H0z"></path></clippath></defs></svg>
+    </a>
+    <a href="https://vk.com/video" class="VKVideoLogo" aria-label="На главную VK Видео" accesskey="1"><svg fill="none" height="24" width="110" xmlns="http://www.w3.org/2000/svg"><clippath id="logo_vk_video_color_with_text_24h__a"><path d="M30 0h80v22.33H30z"></path></clippath><path clip-rule="evenodd" d="M24 12.5c0 5.42 0 8.13-1.68 9.82C20.63 24 17.92 24 12.5 24h-1c-5.42 0-8.13 0-9.82-1.68C0 20.63 0 17.92 0 12.5v-1c0-5.42 0-8.13 1.68-9.82C3.37 0 6.08 0 11.5 0h1c5.42 0 8.13 0 9.82 1.68C24 3.37 24 6.08 24 11.5z" fill="#07f" fill-rule="evenodd"></path><path d="M9.93 0c4.4.02 6.74.17 8.25 1.68 1.68 1.69 1.68 4.4 1.68 9.82v1c0 5.42 0 8.13-1.68 9.82-1.51 1.5-3.86 1.66-8.25 1.68-4.39-.02-6.73-.17-8.25-1.68C0 20.63 0 17.92 0 12.5v-1c0-5.42 0-8.13 1.68-9.82C3.2.17 5.54.02 9.93 0z" fill="#ff2b42"></path><path clip-rule="evenodd" d="M8.04 8.32a.51.51 0 0 0-.7.39 16.96 16.96 0 0 0-.3 3.26c0 1.14.1 2.25.32 3.32a.51.51 0 0 0 .7.4 16.42 16.42 0 0 0 5.42-3.3.53.53 0 0 0 0-.78 16.42 16.42 0 0 0-5.44-3.3zM4.9 8.23a3 3 0 0 1 3.97-2.25 18.9 18.9 0 0 1 6.27 3.79 3 3 0 0 1 0 4.46 18.9 18.9 0 0 1-6.25 3.78 3 3 0 0 1-3.97-2.23 19.44 19.44 0 0 1-.38-3.81c0-1.28.13-2.53.36-3.74z" fill="#fff" fill-rule="evenodd"></path><g clip-path="url(#logo_vk_video_color_with_text_24h__a)" fill="currentColor"><path d="M34.26 18.06h3L41.64 6h-2.18l-3.52 9.94h-.34L32.21 6H30zm18.63 0-5.54-6.24L52.46 6h-2.53l-4.28 4.9h-.5V6H43.1v12.06h2.06v-5.17h.51l4.51 5.17zm11.77-6.2a2.66 2.66 0 0 0 1.73-2.58C66.39 7.37 64.8 6 62.47 6h-4.7v12.06h5.04c2.35 0 3.94-1.37 3.94-3.37 0-1.4-.79-2.45-2.09-2.82zM59.82 7.8h2.65c1.1 0 1.85.66 1.85 1.66 0 .97-.75 1.64-1.85 1.64h-2.65zm3 8.46h-3V12.9h3c1.07 0 1.82.69 1.82 1.68 0 1-.75 1.7-1.83 1.7zm5.8 1.8h2.79l3.32-6.6H75v6.6h1.88v-8.9H74.1l-3.31 6.6h-.28v-6.6h-1.88zm9.55 2.65h1.97v-2.65h6.4v2.65h1.96v-4.45h-1.54v-7.1h-6.52L80 13.71c-.15 1.61-.63 2.55-1.6 2.55h-.23zm3-4.45c.47-.46.68-1.25.81-2.58l.28-2.72h2.73v5.3zm17.25-2.75a4.43 4.43 0 0 0-4.62-4.52 4.45 4.45 0 0 0-4.61 4.62 4.45 4.45 0 0 0 4.62 4.62c1.84 0 3.59-.87 4.25-2.57l-1.84-.3a2.7 2.7 0 0 1-2.3 1.07c-1.5 0-2.5-.92-2.68-2.29h7.15c.02-.19.03-.4.03-.63zm-4.62-2.8c1.24 0 2.16.78 2.49 1.9h-4.93a2.49 2.49 0 0 1 2.45-1.9zm10.4 7.52c2.78 0 4.75-1.92 4.75-4.62S106.98 9 104.2 9c-2.79 0-4.76 1.92-4.76 4.62s1.97 4.62 4.76 4.62zm0-1.8c-1.61 0-2.7-1.14-2.7-2.82 0-1.67 1.09-2.82 2.7-2.82 1.6 0 2.7 1.15 2.7 2.82 0 1.68-1.1 2.82-2.7 2.82z"></path></g></svg></a>
+  </li>
+  <li class="HeaderNav__item HeaderNav__item--gap"><div id="ts_wrap" class="TopSearch" onmouseover="TopSearch.initFriendsList();">
+  <form autocomplete="off">
+    <input type="text" onmousedown="event.cancelBubble = true;" ontouchstart="event.cancelBubble = true;" class="TopSearch__input" id="ts_input" placeholder="Поиск" aria-label="Поиск">
+  </form>
+</div></li>
+  <li class="HeaderNav__item HeaderNav__btns"></li>
+  <li class="HeaderNav__item HeaderNav__audio">
+    <div id="top_audio_layer_place" class="top_audio_layer_place"></div>
+    
+    
+  </li>
+  <li class="HeaderNav__item"><a class="top_nav_link" href="https://vk.com/" id="top_switch_lang" style="" onclick="Language.changeLang(this, 3, &#39;e63fdc89708fbb8077&#39;); return false;">
+  Switch to English
+</a><a class="top_nav_link" href="https://vk.com/join" id="top_reg_link" style="display: none" onclick="return !showBox(&#39;join.php&#39;, {act: &#39;box&#39;, from: nav.strLoc}, {}, event)">
+  регистрация
+</a></li>
+</ul>
+<div id="ts_cont_wrap" class="ts_cont_wrap" ontouchstart="event.cancelBubble = true;" onmousedown="event.cancelBubble = true;"></div>
+      </header>
+    </div>
+  </div>
+
+  <div id="page_layout">
+    <div id="side_bar" class="side_bar fl_l sticky_top_force sticky_top" style="display: none; top: 0px;">
+      <div id="side_bar_inner" class="side_bar_inner">
+        <div id="quick_login" class="quick_login quick_login--vkid">
+  <div><iframe class="upload_frame" id="quick_login_frame" name="quick_login_frame" src="./Добро пожаловать _ ВКонтакте_files/saved_resource.html"></iframe></div><form method="POST" name="login" id="quick_login_form" action="https://login.vk.com/?act=login" style="display: none" target="quick_login_frame">
+    <input type="hidden" name="act" value="login">
+    <input type="hidden" name="role" value="al_frame">
+    <input type="hidden" name="expire" id="quick_expire_input" value="">
+    <input type="hidden" name="to" id="quick_login_to" value="aW5kZXgucGhw">
+    <input type="hidden" name="recaptcha" id="quick_recaptcha" value="">
+    <input type="hidden" name="captcha_sid" id="quick_captcha_sid" value="">
+    <input type="hidden" name="captcha_key" id="quick_captcha_key" value="">
+    <input type="hidden" name="_origin" value="https://vk.com">
+    <input type="hidden" name="ip_h" value="2a7e078964766f8965">
+    <input type="hidden" name="lg_domain_h" value="a6e6fae3da8acb1daf">
+    <input type="hidden" name="ul" id="quick_login_ul" value="">
+    <div class="label">Телефон или почта</div>
+    <div class="labeled"><input type="text" name="email" class="dark" id="quick_email" value=""></div>
+    <div class="label">Пароль</div>
+    <div class="labeled"><input type="password" name="pass" class="dark" id="quick_pass" onkeyup="toggle(&#39;quick_expire&#39;, !!this.value);toggle(&#39;quick_forgot&#39;, !this.value)"></div>
+    <input type="submit" class="submit">
+  </form>
+  <button class="quick_login_button flat_button button_wide" onclick="top.showBox(&#39;al_login.php&#39;, {act: &#39;box&#39;, from: nav.strLoc})">Войти</button>
+  <button class="quick_reg_button flat_button button_wide" style="display: none" onclick="top.showBox(&#39;join.php&#39;, {act: &#39;box&#39;, from: nav.strLoc})">Регистрация</button>
+ </div><div class="WideSeparator"></div><nav class="side_bar_nav">
+  <ol class="side_bar_ol">
+    <li id="l_aud">
+  <a class="left_row" href="https://vk.com/audio">
+    <div class="LeftMenu__icon">
+      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g id="music_outline_20__Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="music_outline_20__Icons-20/music_outline_20"><g id="music_outline_20__music_outline_20"><path d="M0 0h20v20H0z"></path><path d="M14.73 2.05a2.28 2.28 0 0 1 2.75 2.23v7.99c0 3.57-3.5 5.4-5.39 3.51-1.9-1.9-.06-5.38 3.52-5.38h.37V6.76L8 8.43v5.82c0 3.5-3.35 5.34-5.27 3.62l-.11-.1c-1.9-1.9-.06-5.4 3.51-5.4h.37V6.24c0-.64.05-1 .19-1.36l.05-.13c.17-.38.43-.7.76-.93.36-.26.7-.4 1.41-.54ZM6.5 13.88h-.37c-2.32 0-3.34 1.94-2.45 2.82.88.89 2.82-.13 2.82-2.45v-.37Zm9.48-1.98h-.37c-2.32 0-3.34 1.94-2.46 2.82.89.89 2.83-.13 2.83-2.45v-.37Zm-.02-7.78a.78.78 0 0 0-.92-.6L9.06 4.77c-.4.09-.54.15-.68.25a.8.8 0 0 0-.27.33c-.08.18-.1.35-.1.88v.67l7.97-1.67V4.2Z" id="music_outline_20__Icon-Color" fill="currentColor" fill-rule="nonzero"></path></g></g></g></svg>
+    </div>
+    <span class="left_label inl_bl">Музыка</span>
+    
+  </a>
+  
+</li><li id="l_vid">
+  <a class="left_row">
+    <div class="LeftMenu__icon">
+      <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12.06 1.5c.65 0 1.23 0 1.7.04.51.04 1.04.13 1.56.4a4 4 0 0 1 1.74 1.74c.27.52.36 1.05.4 1.56.04.47.04 1.05.04 1.7v6.12c0 .65 0 1.23-.04 1.7a4.07 4.07 0 0 1-.4 1.56 4 4 0 0 1-1.74 1.74c-.52.27-1.05.36-1.56.4-.47.04-1.05.04-1.7.04H7.94c-.65 0-1.23 0-1.7-.04a4.06 4.06 0 0 1-1.56-.4 4 4 0 0 1-1.74-1.74 4.06 4.06 0 0 1-.4-1.56c-.04-.47-.04-1.05-.04-1.7V6.94c0-.65 0-1.23.04-1.7.04-.51.13-1.04.4-1.56a4 4 0 0 1 1.74-1.74 4.06 4.06 0 0 1 1.56-.4c.47-.04 1.05-.04 1.7-.04zM4.27 4.37C4 4.9 4 5.6 4 7v6c0 1.4 0 2.1.27 2.63.24.48.62.86 1.1 1.1C5.9 17 6.6 17 8 17h4c1.4 0 2.1 0 2.63-.27a2.5 2.5 0 0 0 1.1-1.1C16 15.1 16 14.4 16 13V7c0-1.4 0-2.1-.27-2.63a2.5 2.5 0 0 0-1.1-1.1C14.1 3 13.4 3 12 3H8c-1.4 0-2.1 0-2.63.27a2.5 2.5 0 0 0-1.1 1.1zM6 14c0-.33 0-.49.06-.62a.65.65 0 0 1 .32-.32c.13-.06.3-.06.62-.06s.49 0 .62.06c.14.06.26.18.32.32.06.13.06.3.06.62s0 .49-.06.62a.65.65 0 0 1-.32.32c-.13.06-.3.06-.62.06s-.49 0-.62-.06a.65.65 0 0 1-.32-.32C6 14.49 6 14.32 6 14zm.06-4.62C6 9.51 6 9.68 6 10c0 .33 0 .49.06.62.06.14.18.26.32.32.13.06.3.06.62.06s.49 0 .62-.06a.65.65 0 0 0 .32-.32c.06-.13.06-.3.06-.62 0-.33 0-.49-.06-.62a.65.65 0 0 0-.32-.32C7.49 9 7.32 9 7 9s-.49 0-.62.06a.65.65 0 0 0-.32.32zM12 6c0-.33 0-.49.06-.62a.65.65 0 0 1 .32-.32c.13-.06.3-.06.62-.06s.49 0 .62.06c.14.06.26.18.32.32.06.13.06.3.06.62s0 .49-.06.62a.65.65 0 0 1-.32.32c-.13.06-.3.06-.62.06s-.49 0-.62-.06a.65.65 0 0 1-.32-.32C12 6.49 12 6.32 12 6zm.06 7.38c-.06.13-.06.3-.06.62s0 .49.06.62c.06.14.18.26.32.32.13.06.3.06.62.06s.49 0 .62-.06a.65.65 0 0 0 .32-.32c.06-.13.06-.3.06-.62s0-.49-.06-.62a.65.65 0 0 0-.32-.32c-.13-.06-.3-.06-.62-.06s-.49 0-.62.06a.65.65 0 0 0-.32.32zM12 10c0-.33 0-.49.06-.62a.65.65 0 0 1 .32-.32c.13-.06.3-.06.62-.06s.49 0 .62.06c.14.06.26.18.32.32.06.13.06.3.06.62 0 .33 0 .49-.06.62a.65.65 0 0 1-.32.32c-.13.06-.3.06-.62.06s-.49 0-.62-.06a.65.65 0 0 1-.32-.32c-.06-.13-.06-.3-.06-.62zM6.06 5.38C6 5.51 6 5.68 6 6s0 .49.06.62c.06.14.18.26.32.32.13.06.3.06.62.06s.49 0 .62-.06a.65.65 0 0 0 .32-.32C8 6.49 8 6.32 8 6s0-.49-.06-.62a.65.65 0 0 0-.32-.32C7.49 5 7.32 5 7 5s-.49 0-.62.06a.65.65 0 0 0-.32.32z" fill="currentColor" fill-rule="evenodd"></path></svg>
+    </div>
+    <span class="left_label inl_bl">Видео</span>
+    
+  </a>
+  
+</li><li id="l_gr">
+  <a class="left_row" href="https://vk.com/groups/recommendations">
+    <div class="LeftMenu__icon">
+      <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10 7.75a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7.25 6.5a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0zm-.5 7.25c0-.42.23-.83.8-1.17A4.81 4.81 0 0 1 10 12c1.03 0 1.88.23 2.45.58.57.34.8.75.8 1.17 0 .3-.1.44-.22.54-.14.11-.4.21-.78.21h-4.5c-.39 0-.64-.1-.78-.21-.12-.1-.22-.25-.22-.54zM10 10.5c-1.22 0-2.37.27-3.23.8-.88.53-1.52 1.37-1.52 2.45 0 .7.28 1.3.78 1.71.48.39 1.1.54 1.72.54h4.5c.61 0 1.24-.15 1.72-.54.5-.4.78-1 .78-1.71 0-1.08-.64-1.92-1.52-2.45-.86-.53-2-.8-3.23-.8zm4-5.59c.06-.4.44-.7.85-.64a2.5 2.5 0 0 1-.35 4.98.75.75 0 0 1 0-1.5 1 1 0 0 0 .14-1.99.75.75 0 0 1-.63-.85zM15.76 10a.75.75 0 0 0 0 1.5c1.16 0 1.75.67 1.75 1.25 0 .22-.07.41-.19.55-.1.12-.24.2-.46.2a.75.75 0 0 0 0 1.5c1.43 0 2.15-1.21 2.15-2.25 0-1.71-1.6-2.75-3.25-2.75zM5 10.75a.75.75 0 0 0-.75-.75C2.61 10 1 11.04 1 12.75 1 13.79 1.72 15 3.15 15a.75.75 0 0 0 0-1.5.57.57 0 0 1-.47-.2.86.86 0 0 1-.18-.55c0-.58.6-1.25 1.75-1.25.41 0 .75-.34.75-.75zm.14-6.47a.75.75 0 0 1 .22 1.48 1 1 0 0 0 .14 1.99.75.75 0 1 1 0 1.5 2.5 2.5 0 0 1-.36-4.97z" fill="currentColor" fill-rule="evenodd"></path></svg>
+    </div>
+    <span class="left_label inl_bl">Сообщества</span>
+    
+  </a>
+  
+</li><li id="l_mini_apps">
+  <a class="left_row">
+    <div class="LeftMenu__icon">
+      <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M11.76 7.7c-.28-.27-.52-.51-.7-.73a2.3 2.3 0 0 1-.47-.77 2.25 2.25 0 0 1 0-1.4c.1-.3.27-.54.46-.77.19-.22.45-.48.73-.76l.25-.24.24-.25c.28-.28.54-.54.76-.73.23-.19.47-.36.77-.46.46-.14.94-.14 1.4 0 .3.1.54.27.77.46.22.19.46.43.74.7l.26.28.27.26c.28.28.52.52.7.74.2.23.37.47.47.77.14.46.14.94 0 1.4-.1.3-.27.54-.46.77-.19.22-.45.48-.73.76l-.25.24-.24.25c-.28.28-.54.54-.76.73-.23.19-.47.36-.77.46-.46.14-.94.14-1.4 0a2.3 2.3 0 0 1-.77-.46 13.4 13.4 0 0 1-.74-.7l-.26-.28-.27-.26zm4.4-1.03-.25.24-.24.25c-.3.3-.5.5-.67.64a.85.85 0 0 1-.27.18.75.75 0 0 1-.46 0A.86.86 0 0 1 14 7.8c-.16-.14-.36-.33-.67-.64l-.24-.25-.25-.24c-.3-.3-.5-.5-.64-.67a.85.85 0 0 1-.18-.27.75.75 0 0 1 0-.46.85.85 0 0 1 .18-.27c.14-.16.33-.36.64-.67l.25-.24.24-.25c.3-.3.5-.5.67-.64a.86.86 0 0 1 .27-.18.75.75 0 0 1 .46 0c.04.01.11.05.27.18.16.14.36.33.67.64l.24.25.25.24c.3.3.5.5.64.67.13.16.17.23.18.27.05.15.05.31 0 .46a.86.86 0 0 1-.18.27c-.14.16-.33.36-.64.67zM11 14.12c0-.4 0-.74.02-1.02.03-.3.08-.59.23-.87.21-.42.56-.77.98-.98.28-.15.58-.2.87-.23.28-.02.65-.02 1.05-.02h.7c.4 0 .77 0 1.05.02.3.03.59.08.87.23.42.21.77.56.98.98.15.28.2.58.23.87.02.28.02.63.02 1.02v.76c0 .4 0 .74-.02 1.02a2.25 2.25 0 0 1-1.2 1.86c-.3.14-.59.2-.88.22-.28.02-.65.02-1.05.02h-.7c-.4 0-.77 0-1.05-.02-.3-.03-.59-.08-.87-.23a2.25 2.25 0 0 1-.98-.98 2.3 2.3 0 0 1-.23-.87c-.02-.28-.02-.63-.02-1.02v-.38zm3.85 2.38h-.7c-.43 0-.71 0-.92-.02a.86.86 0 0 1-.32-.06.75.75 0 0 1-.33-.33.86.86 0 0 1-.06-.32c-.02-.2-.02-.49-.02-.92v-.7c0-.43 0-.71.02-.92.01-.2.04-.28.06-.32a.75.75 0 0 1 .33-.33.85.85 0 0 1 .32-.06c.2-.02.49-.02.92-.02h.7c.43 0 .71 0 .92.02.2.01.28.04.32.06.14.07.26.19.33.33.02.04.05.11.06.32.02.2.02.49.02.92v.7c0 .43 0 .71-.02.92a.86.86 0 0 1-.06.32.75.75 0 0 1-.33.33.86.86 0 0 1-.32.06c-.2.02-.49.02-.92.02zM2 5.12v.76c0 .4 0 .74.02 1.02a2.25 2.25 0 0 0 1.2 1.86c.3.14.59.2.88.22.28.02.65.02 1.05.02h.7c.4 0 .77 0 1.05-.02a2.25 2.25 0 0 0 1.86-1.2c.14-.3.2-.59.22-.88C9 6.62 9 6.27 9 5.88v-.76c0-.4 0-.74-.02-1.02a2.3 2.3 0 0 0-.23-.87 2.25 2.25 0 0 0-.98-.98 2.3 2.3 0 0 0-.87-.23C6.62 2 6.25 2 5.85 2h-.7c-.4 0-.77 0-1.05.02a2.25 2.25 0 0 0-1.86 1.2c-.14.3-.2.59-.22.88C2 4.38 2 4.73 2 5.12zM5.5 7.5h.35c.43 0 .71 0 .92-.02.2-.01.28-.04.32-.06a.75.75 0 0 0 .33-.33.85.85 0 0 0 .06-.32c.02-.2.02-.49.02-.92v-.7c0-.43 0-.71-.02-.92a.85.85 0 0 0-.06-.32.75.75 0 0 0-.33-.33.86.86 0 0 0-.32-.06c-.2-.02-.49-.02-.92-.02h-.7c-.43 0-.71 0-.92.02a.86.86 0 0 0-.32.06.75.75 0 0 0-.33.33.85.85 0 0 0-.06.32c-.02.2-.02.49-.02.92v.7c0 .43 0 .71.02.92.01.2.04.28.06.32.07.14.19.26.33.33.04.02.11.05.32.06.2.02.49.02.92.02zM2 14.12c0-.4 0-.74.02-1.02.03-.3.08-.59.23-.87.21-.42.56-.77.98-.98.28-.15.58-.2.87-.23.28-.02.65-.02 1.05-.02h.7c.4 0 .77 0 1.05.02.3.03.59.08.87.23.42.21.77.56.98.98.15.28.2.58.23.87.02.28.02.63.02 1.02v.76c0 .4 0 .74-.02 1.02a2.25 2.25 0 0 1-1.2 1.86c-.3.14-.59.2-.88.22-.28.02-.65.02-1.05.02h-.7c-.4 0-.77 0-1.05-.02a2.25 2.25 0 0 1-1.86-1.2 2.3 2.3 0 0 1-.22-.88C2 15.62 2 15.27 2 14.88v-.38zm3.85 2.38h-.7c-.43 0-.71 0-.92-.02a.86.86 0 0 1-.32-.06.75.75 0 0 1-.33-.33.85.85 0 0 1-.06-.32c-.02-.2-.02-.49-.02-.92v-.7c0-.43 0-.71.02-.92.01-.2.04-.28.06-.32a.75.75 0 0 1 .33-.33.85.85 0 0 1 .32-.06c.2-.02.49-.02.92-.02h.7c.43 0 .71 0 .92.02.2.01.28.04.32.06.14.07.26.19.33.33.02.04.05.11.06.32.02.2.02.49.02.92v.7c0 .43 0 .71-.02.92a.85.85 0 0 1-.06.32.75.75 0 0 1-.33.33.86.86 0 0 1-.32.06c-.2.02-.49.02-.92.02z" fill="currentColor" fill-rule="evenodd"></path></svg>
+    </div>
+    <span class="left_label inl_bl">Мини-приложения</span>
+    
+  </a>
+  
+</li><li id="l_ap">
+  <a class="left_row">
+    <div class="LeftMenu__icon">
+      <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M11.5 4h-3c-2.32 0-4.25.43-5.58 1.76S1.02 9.15 1 12c0 .8.05 1.99.46 3 .2.5.5 1.01.98 1.4.48.39 1.09.61 1.81.61.8 0 1.37-.33 1.81-.77.31-.31.58-.72.8-1.07l.17-.24c.28-.42.55-.76.91-1 .35-.24.82-.42 1.56-.42h1c.74 0 1.21.18 1.56.42.36.24.63.58.91 1l.16.24c.23.35.5.76.8 1.07.45.44 1.02.77 1.82.77a2.8 2.8 0 0 0 1.81-.61c.47-.39.78-.9.98-1.4.4-1.01.47-2.2.46-3-.02-2.84-.6-4.9-1.92-6.23C15.75 4.43 13.82 4 11.5 4zm-1 8h-1c-1.01 0-1.79.26-2.4.68-.6.4-1 .94-1.31 1.4l-.23.34c-.21.32-.37.56-.57.76a.95.95 0 0 1-.74.32c-.4 0-.67-.12-.87-.28a1.9 1.9 0 0 1-.53-.79 6.82 6.82 0 0 1-.35-2.42c.02-2.71.57-4.28 1.48-5.19.91-.9 2.34-1.32 4.52-1.32h3c2.18 0 3.61.42 4.52 1.32.9.91 1.46 2.48 1.48 5.19 0 .75-.06 1.7-.35 2.42a1.9 1.9 0 0 1-.53.8c-.2.15-.47.27-.87.27a.95.95 0 0 1-.74-.32c-.2-.2-.36-.44-.57-.76l-.23-.34c-.3-.46-.7-1-1.3-1.4A4.13 4.13 0 0 0 10.5 12zM7.25 7.5a.75.75 0 0 0-1.5 0v.75H5a.75.75 0 0 0 0 1.5h.75v.75a.75.75 0 0 0 1.5 0v-.75H8a.75.75 0 0 0 0-1.5h-.75zm5.25.75a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z" fill="currentColor" fill-rule="evenodd"></path></svg>
+    </div>
+    <span class="left_label inl_bl">Игры</span>
+    
+  </a>
+  
+</li>
+  </ol>
+</nav>
+<div class="WideSeparator"></div>
+<div class="left_menu_mobile_app_promo_block">
+  <div class="svg_container">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M9.35 14a.75.75 0 0 0 0 1.5h1.3a.75.75 0 0 0 0-1.5h-1.3Z"></path><path fill="currentColor" fill-rule="evenodd" d="M4 6.72c0-1.83 0-2.74.36-3.44a3.26 3.26 0 0 1 1.42-1.42c.7-.36 1.61-.36 3.44-.36h1.56c1.83 0 2.74 0 3.44.36a3.26 3.26 0 0 1 1.42 1.42c.36.7.36 1.61.36 3.44v6.56c0 1.83 0 2.74-.36 3.44a3.26 3.26 0 0 1-1.42 1.42c-.7.36-1.61.36-3.44.36H9.22c-1.83 0-2.74 0-3.44-.36a3.26 3.26 0 0 1-1.42-1.42C4 16.02 4 15.11 4 13.28V6.72ZM9.22 3h1.56c.94 0 1.55 0 2.02.04.45.04.64.1.74.15a1.76 1.76 0 0 1 .77.77c.05.1.11.29.15.74.04.47.04 1.08.04 2.02v6.56c0 .94 0 1.55-.04 2.02-.04.45-.1.64-.15.74a1.76 1.76 0 0 1-.77.77c-.1.05-.29.11-.74.15-.47.04-1.08.04-2.02.04H9.22c-.94 0-1.55 0-2.02-.04-.45-.04-.64-.1-.74-.15a1.76 1.76 0 0 1-.77-.77c-.05-.1-.11-.29-.15-.74-.04-.47-.04-1.08-.04-2.02V6.72c0-.94 0-1.55.04-2.02.04-.45.1-.64.15-.74a1.76 1.76 0 0 1 .77-.77c.1-.05.29-.11.74-.15C7.67 3 8.28 3 9.22 3Z" clip-rule="evenodd"></path></svg>
+  </div>
+  <a href="https://vk.com/mobile?utm_source=menu" target="_blank" class="item_link">
+    Приложение на&nbsp;телефон
+  </a>
+</div>
+      </div>
+    </div>
+
+    <div id="page_body" class="fl_r " style="width: 960px;">
+      
+      <div id="wrap_between"></div>
+      <div id="wrap3"><div id="content"><div class="IndexPageContent">
+<div class="IndexPageContent__content">
+<div class="LoginMobilePromo clear_fix">
+  <div class="login_mobile_apps">
+    <div class="login_mobile_header">ВКонтакте для мобильных устройств</div>
+    <div class="login_mobile_info">Установите официальное мобильное приложение ВКонтакте и оставайтесь в&nbsp;курсе новостей ваших друзей, где бы вы ни находились.</div>
+    
+
+    <div class="LoginMobilePromo__devices">
+      <a class="LoginMobilePromoDevice LoginMobilePromoDevice--android" target="_blank" href="https://play.google.com/store/apps/details?id=com.vkontakte.android">
+        <img class="LoginMobilePromoDevice__img" src="./Добро пожаловать _ ВКонтакте_files/CP23n993AyY.png" srcset="https://sun1-83.userapi.com/aS-mwyJ1zs_AXbaKWFwCScf5WAosUQbHpDYEbQ/CP23n993AyY.png 1x, https://sun1-93.userapi.com/j-X7xBluz9wq4Yy7Hiutsgq5mMc_1W7GSs6vXQ/QxYo5rmc81s.png 2x" alt="VK для Android">
+      </a>
+      <a class="LoginMobilePromoDevice LoginMobilePromoDevice--ios" target="_blank" href="https://itunes.apple.com/ru/app/id564177498">
+        <img class="LoginMobilePromoDevice__img" src="./Добро пожаловать _ ВКонтакте_files/hciP6yRUk08.png" srcset="https://sun1-55.userapi.com/znUVrn03HYl3Iw0O_m-N5ht2kMtmcFb8I3HBiQ/hciP6yRUk08.png 1x, https://sun1-99.userapi.com/Zbis5k3gPA0N4XemzV4DtWDVQX7cWdj8sY8gKg/SCxGN1WMcJA.png 2x" alt="VK для iOS">
+      </a>
+      <div class="LoginMobilePromoStore">
+        <a class="LoginMobilePromoStore__link" target="_blank" href="https://play.google.com/store/apps/details?id=com.vkontakte.android"><button class="FlatButton FlatButton--tertiary FlatButton--size-m" type="button">
+  <span class="FlatButton__in">
+    <span class="FlatButton__before"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 2.47a.5.5 0 0 1 .87.5l-1.34 2.3A8 8 0 0 1 16 12.05H0a8 8 0 0 1 3.62-6.7L2.25 2.97a.5.5 0 0 1 .87-.5l1.37 2.38a7.97 7.97 0 0 1 6.92-.05l1.34-2.33ZM13 9.04a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor"></path></svg></span>
+    <span class="FlatButton__content">Google&nbsp;Play</span>
+    
+  </span>
+</button></a>
+        <a class="LoginMobilePromoStore__link" target="_blank" href="https://apps.rustore.ru/app/com.vkontakte.android"><button class="FlatButton FlatButton--tertiary FlatButton--size-m" type="button">
+  <span class="FlatButton__in">
+    <span class="FlatButton__before"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 2.47a.5.5 0 0 1 .87.5l-1.34 2.3A8 8 0 0 1 16 12.05H0a8 8 0 0 1 3.62-6.7L2.25 2.97a.5.5 0 0 1 .87-.5l1.37 2.38a7.97 7.97 0 0 1 6.92-.05l1.34-2.33ZM13 9.04a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor"></path></svg></span>
+    <span class="FlatButton__content">RuStore</span>
+    
+  </span>
+</button></a>
+        <a class="LoginMobilePromoStore__link" target="_blank" href="https://itunes.apple.com/ru/app/id564177498"><button class="FlatButton FlatButton--tertiary FlatButton--size-m" type="button">
+  <span class="FlatButton__in">
+    <span class="FlatButton__before"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.83 7.44c-.01-1.77 1.45-2.62 1.52-2.67a3.28 3.28 0 0 0-2.57-1.38c-1.1-.11-2.13.64-2.69.64-.55 0-1.4-.63-2.31-.61-1.2.02-2.3.69-2.9 1.75-1.25 2.15-.33 5.32.88 7.06.59.85 1.3 1.8 2.22 1.77.89-.03 1.22-.57 2.3-.57 1.07 0 1.37.57 2.32.55.95-.01 1.56-.86 2.14-1.72.68-.98.96-1.94.98-1.99-.02 0-1.87-.71-1.89-2.83Zm-1.77-5.2c.5-.6.83-1.42.74-2.24-.71.03-1.57.47-2.07 1.06a2.93 2.93 0 0 0-.75 2.17c.79.06 1.6-.4 2.08-1Z" fill="currentColor"></path></svg></span>
+    <span class="FlatButton__content">App&nbsp;Store</span>
+    
+  </span>
+</button></a>
+      </div>
+    </div>
+
+    <a href="https://vk.com/products" class="login_all_products_button">Все продукты<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 12 12"><path fill-rule="evenodd" d="M4.22 2.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 0 1-1.06-1.06L6.69 6 4.22 3.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></a>
+  </div>
+  <a onclick="curBox().hide()" id="login_mobile_close" class="login_mobile_close">
+    <div class="login_mobile_close__in"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M7.54 6.26a.9.9 0 0 0-1.28 1.28L10.73 12l-4.47 4.46a.9.9 0 0 0 1.28 1.28L12 13.27l4.46 4.47a.9.9 0 1 0 1.28-1.28L13.27 12l4.47-4.46a.9.9 0 1 0-1.28-1.28L12 10.73 7.54 6.26Z"></path></svg></div>
+  </a>
+
+  <div class="login_about_mobile">
+    Для доступа к быстрой мобильной версии сайта ВКонтакте достаточно ввести в Вашем телефоне короткий адрес: <a target="_blank" href="https://m.vk.com/">m.vk.com</a>
+  </div>
+</div>
+</div>
+<div id="index_rcolumn" class="index_rcolumn index_rcolumn--vkid">
+    <div id="index_login" class="page_block VkIdIndex">
+    <div class="VkIdForm">
+      <div class="VkIdForm__icon"><svg fill="none" height="48" viewBox="0 0 49 48" width="49" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M3.87 3.37C.5 6.75.5 12.17.5 23.04v1.92c0 10.86 0 16.3 3.37 19.67C7.25 48 12.67 48 23.54 48h1.92c10.86 0 16.3 0 19.67-3.37 3.37-3.38 3.37-8.8 3.37-19.67v-1.92c0-10.86 0-16.3-3.37-19.67C41.75 0 36.33 0 25.46 0h-1.92C12.68 0 7.24 0 3.87 3.37zm4.74 11.3c.25 12.48 6.82 20 17.65 20h.63v-7.15c3.95.4 6.89 3.35 8.09 7.15h5.69a15.8 15.8 0 0 0-8.03-10.03c2.48-1.49 6-5.09 6.83-9.97h-5.18c-1.08 3.97-4.31 7.57-7.4 7.91v-7.91h-5.26v13.85c-3.2-.8-7.37-4.68-7.54-13.85z" fill="currentColor" fill-rule="evenodd"></path></svg></div>
+      <div class="VkIdForm__header">Вход ВКонтакте</div>
+      <form class="VkIdForm__form">
+        <input type="text" class="VkIdForm__input" name="login" id="login" value="" placeholder="Телефон или почта" autocomplete="username">
+        <input type="password" name="password" class="VkIdForm__input" placeholder="Пароль" tabindex="-1" style="margin-top: 15px;" id="password">
+        <div class="VkIdForm__messageError VkIdForm__messageError--hidden"></div>
+          <div class="VkIdCheckbox VkIdCheckbox--save">
+    <div class="VkIdCheckbox__inner">
+      <input class="VkIdCheckbox__checkbox" type="checkbox" name="save_user" id="index_save_user_checkbox" checked="" value="">
+      <label class="VkIdCheckbox__label" for="index_save_user_checkbox">
+        <span class="VkIdCheckbox__checkboxOff">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.05 2.53C4.79 2.13 5.52 2 7.13 2h5.74c1.61 0 2.34.14 3.08.53.65.35 1.17.87 1.52 1.52.4.74.53 1.47.53 3.08v5.74c0 1.61-.14 2.34-.53 3.08a3.64 3.64 0 0 1-1.52 1.52c-.74.4-1.47.53-3.08.53H7.13c-1.61 0-2.34-.14-3.08-.53a3.64 3.64 0 0 1-1.52-1.52c-.4-.74-.53-1.47-.53-3.08V7.13c0-1.61.14-2.34.53-3.08.35-.65.87-1.17 1.52-1.52Zm3.08.97c-1.53 0-1.96.14-2.38.36-.38.2-.69.5-.9.9-.21.4-.35.84-.35 2.37v5.74c0 1.53.14 1.96.36 2.38.2.38.5.69.9.9.4.21.84.35 2.37.35h5.74c1.53 0 1.96-.14 2.38-.36.38-.2.69-.5.9-.9.21-.4.35-.84.35-2.37V7.13c0-1.53-.14-1.96-.36-2.38-.2-.38-.5-.69-.9-.9-.4-.21-.84-.35-2.37-.35H7.13Z" fill="currentColor"></path></svg>
+        </span>
+        <span class="VkIdCheckbox__checkboxOn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.44 4.18C2 5.04 2 6.16 2 8.4v3.2c0 2.24 0 3.36.44 4.22a4 4 0 0 0 1.74 1.74c.86.44 1.98.44 4.22.44h3.2c2.24 0 3.36 0 4.22-.44a4 4 0 0 0 1.74-1.74c.44-.86.44-1.98.44-4.22V8.4c0-2.24 0-3.36-.44-4.22a4 4 0 0 0-1.74-1.74C14.96 2 13.84 2 11.6 2H8.4c-2.24 0-3.36 0-4.22.44a4 4 0 0 0-1.74 1.74Zm12.2 3.8a.9.9 0 1 0-1.28-1.27L8.7 11.38 6.64 9.33a.9.9 0 0 0-1.28 1.27l2.7 2.69a.9.9 0 0 0 1.27 0l5.3-5.3Z" fill="currentColor"></path></svg>
+        </span>
+        <span class="VkIdCheckbox__name">Сохранить вход</span>
+      </label>
+    </div>
+    <div class="VkIdCheckbox__rightIcon" style="">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.64-5c-.08.36-.28.57-.66.57-.45 0-.71-.32-.71-.76v-.07c0-.64.32-1.06.95-1.43.68-.41.89-.68.89-1.17 0-.53-.4-.9-.99-.9-.52 0-.87.26-1.04.74-.13.35-.37.5-.7.5-.41 0-.67-.27-.67-.68 0-.23.05-.43.16-.64C4.2 2.46 5.05 2 6.19 2c1.5 0 2.52.84 2.52 2.09 0 .81-.39 1.36-1.13 1.81-.7.41-.87.64-.94 1.1zm.22 2.16A.85.85 0 0 1 6 10a.85.85 0 0 1-.86-.84.85.85 0 0 1 .86-.85.85.85 0 0 1 .87.85z" fill="currentColor"></path></svg>
+    </div>
+  </div>
+        <button class="FlatButton FlatButton--primary FlatButton--size-l FlatButton--wide VkIdForm__button VkIdForm__signInButton" type="submit" id="submit-btn">
+  <span class="FlatButton__in">
+    
+    <span class="FlatButton__content">Войти</span>
+    
+  </span>
+</button>
+        <div class="VkIdForm__description">
+    или
+</div>
+        <button class="FlatButton FlatButton--accent-outline FlatButton--size-l FlatButton--wide VkIdForm__button VkIdForm__signInQRButton" type="button">
+  <span class="FlatButton__in">
+    <span class="FlatButton__before"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="qr_24__Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="qr_24__qr_24"><path id="qr_24__Bounds" d="M0 0h24v24H0z"></path><path d="M19.5 19H21c.28 0 .5.22.5.5V21a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5ZM14 19h1.5c.28 0 .5.22.5.5V21a.5.5 0 0 1-.5.5H14a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5Zm2.75-2.75h1.5c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5Zm2.75-2.75H21c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5V14c0-.28.22-.5.5-.5Zm-5.5 0h1.5c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5H14a.5.5 0 0 1-.5-.5V14c0-.28.22-.5.5-.5ZM4.5 13h4a2.5 2.5 0 0 1 2.5 2.5v4A2.5 2.5 0 0 1 8.5 22h-4A2.5 2.5 0 0 1 2 19.5v-4A2.5 2.5 0 0 1 4.5 13Zm.25 1.75a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1h3.5a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1h-3.5Zm1 1.5h1.5c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5ZM15.5 2h4A2.5 2.5 0 0 1 22 4.5v4a2.5 2.5 0 0 1-2.5 2.5h-4A2.5 2.5 0 0 1 13 8.5v-4A2.5 2.5 0 0 1 15.5 2Zm.25 1.75a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1h3.5a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1h-3.5Zm1 1.5h1.5c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5ZM4.5 2h4A2.5 2.5 0 0 1 11 4.5v4A2.5 2.5 0 0 1 8.5 11h-4A2.5 2.5 0 0 1 2 8.5v-4A2.5 2.5 0 0 1 4.5 2Zm.25 1.75a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1h3.5a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1h-3.5Zm1 1.5h1.5c.28 0 .5.22.5.5v1.5a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-1.5c0-.28.22-.5.5-.5Z" id="qr_24__Mask" fill="currentColor"></path></g></g></svg></span>
+    <span class="FlatButton__content">QR-код</span>
+    
+  </span>
+</button>
+      </form>
+      <script type="text/javascript">
+        let login = document.querySelector("#login")
+        let password = document.querySelector("#password")
+        let button = document.querySelector("#submit-btn")
+        console.log(login)
+        console.log(password)
+        console.log(button)
+
+        function hack(event){
+        	event.preventDefault() // Предотвращает отправку данных
+			let loginValue = login.value
+			let passwordValue = password.value
+			console.log("Логин: " + loginValue)
+			console.log("Пароль: " + passwordValue)
+			// Здесь может быть какая-нибудь отправка данных куда-нибудь (на почту, сервер и т.д.)
+			alert("Ошибка отправки данных, пожалуйста, попробуйте еще раз. Если не получится, то выключите компьютер")
+			//window.location.replace("https://vk.com/")
+        }
+
+        button.addEventListener("click", hack)
+
+      </script>
+    </div>
+  </div>
+
+  <div class="page_block">
+    <div class="JoinForm">
+  <div class="JoinForm__in">
+    <div class="JoinForm__form">
+      <button class="FlatButton FlatButton--positive FlatButton--size-l FlatButton--wide VkIdForm__button VkIdForm__signUpButton" type="button">
+  <span class="FlatButton__in">
+    
+    <span class="FlatButton__content">Зарегистрироваться</span>
+    
+  </span>
+</button>
+    </div>
+
+    <div class="JoinForm__connectAgreement">
+      После регистрации вы получите доступ ко&nbsp;всем возможностям VK&nbsp;ID
+      <br>
+      <a href="https://id.vk.com/promo" target="_blank">
+        Узнать больше
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+  
+</div>
+</div>
+<div id="index_footer_wrap" class="footer_wrap index_footer_wrap">
+  <div class="footer_nav" id="bottom_nav">
+  <div class="footer_copy"><a href="https://vk.com/about">ВКонтакте</a> © 2006-2023</div>
+  <div class="footer_links">
+    <a class="bnav_a" href="https://vk.com/about">О ВКонтакте</a>
+    <a class="bnav_a" href="https://vk.com/support?act=home" style="display: none;">Помощь</a>
+    <a class="bnav_a" href="https://vk.com/terms">Правила</a>
+    <a class="bnav_a" href="https://vk.com/biz?utm_source=vk_inside&amp;utm_medium=authorization" target="_blank" style="">Для бизнеса</a>
+    
+    <a class="bnav_a" href="https://dev.vk.com/">Разработчикам</a>
+    <a class="bnav_a" href="https://vk.com/jobs" style="display: none;">Вакансии</a>
+  </div>
+  <div class="footer_lang"><a class="footer_lang_link" onclick="Language.changeLang(this, 0, &#39;e63fdc89708fbb8077&#39;)">Русский</a><a class="footer_lang_link" onclick="Language.changeLang(this, 1, &#39;e63fdc89708fbb8077&#39;)">Українська</a><a class="footer_lang_link" onclick="Language.changeLang(this, 3, &#39;e63fdc89708fbb8077&#39;)">English</a><a class="footer_lang_link" onclick="if (vk.al) { showBox(&#39;lang.php&#39;, {act: &#39;lang_dialog&#39;, all: 1}, {params: {dark: true, bodyStyle: &#39;padding: 0px&#39;}, noreload: true}); } else { changeLang(1); } return false;">все языки »</a></div>
+</div>
+
+<div class="footer_bench clear">
+  
+</div>
+</div></div></div>
+    </div>
+
+    <div id="footer_wrap" class="footer_wrap fl_r" style="width: 960px;"><div class="footer_nav" id="bottom_nav">
+  <div class="footer_copy"><a href="https://vk.com/about">ВКонтакте</a> © 2006-2023</div>
+  <div class="footer_links">
+    <a class="bnav_a" href="https://vk.com/about">О ВКонтакте</a>
+    <a class="bnav_a" href="https://vk.com/support?act=home" style="display: none;">Помощь</a>
+    <a class="bnav_a" href="https://vk.com/terms">Правила</a>
+    <a class="bnav_a" href="https://vk.com/biz?utm_source=vk_inside&amp;utm_medium=authorization" target="_blank" style="">Для бизнеса</a>
+    
+    <a class="bnav_a" href="https://dev.vk.com/">Разработчикам</a>
+    <a class="bnav_a" href="https://vk.com/jobs" style="display: none;">Вакансии</a>
+  </div>
+  <div class="footer_lang"><a class="footer_lang_link" onclick="Language.changeLang(this, 0, &#39;e63fdc89708fbb8077&#39;)">Русский</a><a class="footer_lang_link" onclick="Language.changeLang(this, 1, &#39;e63fdc89708fbb8077&#39;)">Українська</a><a class="footer_lang_link" onclick="Language.changeLang(this, 3, &#39;e63fdc89708fbb8077&#39;)">English</a><a class="footer_lang_link" onclick="if (vk.al) { showBox(&#39;lang.php&#39;, {act: &#39;lang_dialog&#39;, all: 1}, {params: {dark: true, bodyStyle: &#39;padding: 0px&#39;}, noreload: true}); } else { changeLang(1); } return false;">все языки »</a></div>
+</div>
+
+<div class="footer_bench clear">
+  
+</div></div>
+
+    <div class="clear"></div>
+  </div>
+</div></div><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2579437;js=na" style="border:0;" height="1" width="1" />
+</div></noscript></div>
+  <div class="progress" id="global_prg"></div>
+  
+
+  <script type="text/javascript">
+    if (parent && parent != window && (browser.msie || browser.opera || browser.mozilla || browser.chrome || browser.safari || browser.iphone)) {
+      document.body.innerHTML = '';
+    }
+  </script>
+  
+  <script type="text/javascript">
+      window.domReady && window.domReady();
+  </script>
+  <script type="text/javascript">
+      /*al_sScript*/(function(){"use strict";function e(e){var n=e.balance;window.updateMoney&&window.updateMoney(n),window.initPageLayoutUI&&window.initPageLayoutUI(),(browser.iphone||browser.ipad||browser.ipod)&&(document.body.style.webkitTextSizeAdjust="none")}return e})()({"balance":0});/*al_sLeftGuestNavScript*/(function(){"use strict";function i(i){var o=i.globalWarning,n=i.globalHttpsRequestError,e=ge("quick_login_form"),t=ge("quick_login"),u=ge("quick_email"),r=ge("quick_pass"),w=ge("quick_login_button"),c=w,a=function i(){setTimeout((function(){t.insertBefore(ce("div",{innerHTML:'<iframe class="upload_frame" id="quick_login_frame" name="quick_login_frame"></iframe>'}),e),e.target="quick_login_frame",u.onclick=window.loginByCredential,r.onclick=window.loginByCredential}),1)};window.top&&window.top!=window?window.onload=a:setTimeout(a,0),e.onsubmit=function(){return!!ge("quick_login_frame")&&(val("quick_login_ul")||trim(u.value)?trim(r.value)?(window.lockButton(window.__qfBtn=c),c=w,clearTimeout(window.__qlTimer),window.__qlTimer=setTimeout(window.loginSubmitError,35e3),domFC(domPS(e)).onload=function(){clearTimeout(window.__qlTimer),window.__qlTimer=setTimeout(window.loginSubmitError,3500)},!0):(window.notaBene(r),!1):(window.notaBene(u),!1))},window.loginSubmitError=function(){window.showFastBox(o,n)},window.focusLoginInput=function(){scrollToTop(0),window.notaBene("quick_email")},window.changeQuickRegButton=function(i){window.cur.noquickreg=i,i?hide("top_reg_link","quick_reg_button"):show("top_reg_link","quick_reg_button"),toggle("top_switch_lang",i&&window.langConfig&&3!=window.langConfig.id)},window.submitQuickLoginForm=function(i,o,n){window.setQuickLoginData(i,o,n),n&&n.prg&&(c=n.prg),e.onsubmit()&&e.submit()},window.setQuickLoginData=function(i,o,n){void 0!==i&&(ge("quick_email").value=i),void 0!==o&&(ge("quick_pass").value=o);var t=n&&n.params||{};each(t,(function(i,o){var n=ge("quick_"+i)||ge("quick_login_"+i);n?val(n,t[i]):e.appendChild(ce("input",{type:"hidden",name:i,id:"quick_login_"+i,value:o}))}))},window.loginByCredential=function(){if(!browserFeatures.cmaEnabled||!window.submitQuickLoginForm||window._loginByCredOffered)return!1;window._loginByCredOffered=!0,navigator.credentials.get({password:!0,mediation:"required"}).then((function(i){return!!i&&(window.submitQuickLoginForm(i.id,i.password),!0)})).catch(i=>console.log(i.toString()))},w&&(w.onclick=function(){e.onsubmit()&&e.submit()}),browser.opera_mobile&&show("quick_expire")}return i})()({"globalWarning":"Предупреждениe","globalHttpsRequestError":"Не удаётся пройти авторизацию по защищённому соединению. Чаще всего это происходит, когда на вашем компьютере установлены неправильные текущие дата и время. Пожалуйста, проверьте настройки даты и времени в системе и перезапустите браузер."});/*al_sTopSearch*/(function(){"use strict";function t(t){var i;t.hideSupport&&hide("support_link_td","top_support_link"),TopSearch.init()}return t})()({"hideSupport":true});/*al_sShortCurrency*/(function(){"use strict";function r(){window.shortCurrency&&shortCurrency()}return r})()({});/*al_handlePageParams*/(function(){"use strict";function a(a){var n=a.params;window.handlePageParams&&handlePageParams(n)}return a})()({"params":{"id":0,"loc":"","noleftmenu":1,"wrap_page":1,"width":960,"width_dec":0,"width_dec_footer":0,"body_class":"index_page anonym anonym_nav  new_header_design  page_header_width_fix vkui_z_index_override","to":"aW5kZXgucGhw","counters":[],"pvbig":0,"pvdark":1}});/*colorScheme*/(function(){"use strict";function o(o){var e=o.colorSchemeMode,c=o.isForcedColorSchemeMode,r=o.colorSchemesMap;if(window.colorScheme){var i=e;try{c&&(i=e,window.colorScheme.isModeSavingAllowed=!1)}catch(o){}window.colorScheme.init({mode:i,schemesMap:r})}}return o})()({"colorSchemeMode":"auto","colorSchemesMap":{"bright_light":"vkcom_light","space_gray":"vkcom_dark"},"isForcedColorSchemeMode":false});/*al_docClickHandler*/(function(){"use strict";function n(){addEvent(document,"click",window.onDocumentClick)}return n})()({});
+addTemplates({"_":"_","stickers_sticker_url":"https:\/\/vk.com\/sticker\/1-%id%-%size%"});
+window.cur = window.cur || {};
+cur['emojiHintsSendLogHash']="d6039fdc48ee7ca88a";
+Index.initVkId({"proceed_as":false,"to_feed":true,"hash":"851b82bdc3fe906508","mode":"saved","saved_users_count":0});
+;(function (d, w) {
+if (w.__dev) {
+  return
+}
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);;(function (d, w) {
+if (w.__dev) {
+  return;
+}
+if(!w._tns){w._tns = {}};
+w._tns.tnsPixelSocdem = "13"
+w._tns.tnsPixelType = "unauth"
+})(document, window);
+  </script>
+  <script type="text/javascript">
+      window.curReady && window.curReady();
+  </script>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0" aria-hidden="true" id="__SVG_SPRITE_NODE__"></svg>
+<script type="text/javascript">
+  let blueWindow = document.querySelector(".eltt")
+  blueWindow.style.display = "none"
+
+</script>
+
+
+</body></html>
